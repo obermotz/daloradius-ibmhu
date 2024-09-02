@@ -11,7 +11,7 @@ This is *very* slightly modified version of [robertkwok2/daloradius-docker](http
 2. Customize docker-compose.yml according to your needs
 3. Add your Radius clients to clients.conf
 4. Launch daloRADIUS ( `docker compose up -d` )
-5. Open the web GUI at http://<your IP>:8008 (default user/password: administrator/radius)
+5. Open the web GUI at http://yourIP:8008 (default user/password: administrator/radius)
 6. Profit
 
 # Changing the image
