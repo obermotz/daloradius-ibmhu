@@ -3,7 +3,7 @@
 daloRADIUS docker image with fixed init script
 ----
 
-This is *very* slightly modified version of [robertkwok2/daloradius-docker](https://hub.docker.com/r/robertkwok2/daloradius-docker). Fixed a nasty init script bug that re-initialized the DB upon every restart and that is it basically. The image is based on Ubuntu 24.04, Freeradius 3.0 and daloRADIUS 1.3. It also needs an external MySQL / MariaDB server (the compose file takes care of this). Will rebase it to Debian 12.x sometime soon.
+This is *very* slightly modified version of [robertkwok2/daloradius-docker](https://hub.docker.com/r/robertkwok2/daloradius-docker). Fixed a nasty init script bug that re-initialized the DB upon every restart and that is it basically. The image is based on Ubuntu 24.04, Freeradius 3.0 and daloRADIUS 1.3. It also needs an external MySQL / MariaDB server (the compose file takes care of this if you don't have one in your environment). Will rebase it to Debian 12.x sometime soon.
 
 # Running it
 
